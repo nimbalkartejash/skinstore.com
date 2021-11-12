@@ -1,0 +1,147 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkinStore: Premium Skin Care Online</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="mainDiv">
+
+        <div id="navBar">
+            <div id="help">
+                <div><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/United-states_flag_icon_round.svg/1024px-United-states_flag_icon_round.svg.png"
+                        alt="us"><span>us-USD</span><span>Help</span></div>
+            </div>
+            <div id="logoBar" class="pad">
+                <div id="logo">
+                    <h1>SkinStore</h1>
+                    <p>part of the <span>LOOKFANTASTIC</span> group</p>
+                </div>
+                <div id="searchBar">
+                    <input type="text" id="search" placeholder="Search for a product or brand..."><span
+                        class="material-icons-outlined">
+                        search
+                    </span>
+                </div>
+                <div id="account">
+                    <img src="https://previews.123rf.com/images/flatdesign/flatdesign2009/flatdesign200900382/154641650-user-icon-vector-people-icon-profile-vector-icon-person-illustration-business-user-icon-users-group-.jpg"
+                        alt="account">
+                    <span>Account</span>
+                </div>
+                <div id="cart" class="top20">
+                    <a class="material-icons-outlined">
+                        shopping_basket
+                    </a><span>Cart</span>
+                </div>
+            </div>
+            <div id="menuBar">
+                <ul>
+                    <li id="li-1" onmouseenter="showBrands()" >Brands
+
+                    </li>
+                    <li id="li-2">Holiday Shop</li>
+                    <li id="li-3">Singles' Day Sale</li>
+                    <li id="li-4">Skin Care</li>
+                    <li id="li-5">Hair</li>
+                    <li id="li-6">Makeup</li>
+                    <li id="li-7">Tools</li>
+                    <li id="li-8">Bath & Body</li>
+                    <li id="li-9">Self-Care</li>
+                    <li id="li-10">Fragrance</li>
+                    <li id="li-11">Limited Editions</li>
+                    <li id="li-12">New</li>
+                    <li id="li-13">Advice</li>
+                </ul>
+            </div>
+            <div id="brands">
+                <ul onmouseleave="hideBrand()">
+                    <li>0-9</li>
+                    <li>A</li>
+                    <li>B</li>
+                    <li>C</li>
+                    <li>D</li>
+                    <li>E</li>
+                    <li>F</li>
+                    <li>G</li>
+                    <li>H</li>
+                    <li>I</li>
+                    <li>J</li>
+                    <li>K</li>
+                    <li>L</li>
+                    <li>M</li>
+                    <li>N</li>
+                    <li>O</li>
+                    <li>P</li>
+                    <li>Q</li>
+                    <li>R</li>
+                    <li>S</li>
+                    <li>T</li>
+                    <li>U</li>
+                    <li>V</li>
+                    <li>W</li>
+                    <li>X</li>
+                    <li>Y</li>
+                    <li>Z</li>
+                    <li>View all Brands</li>
+                </ul>
+            </div>
+            <div id="holiday">
+                <ul>Limited Edition Gifts
+                    <li>SkinStore Holiday Edit 2021</li>
+                    <li>SkinStore Exclusives</li>
+                </ul>
+                <ul>By Price
+                    <li>Gifts Under $50</li>
+                    <li>Gifts Under $100</li>
+                    <li>Luxury Gifts Over $100</li>
+                </ul>
+                <ul>By Recipient
+                    <li>Gifts for Her</li>
+                    <li>Gifts for Him</li>
+                </ul>
+                <ul>By Category
+                    <li>Skincare Gifts</li>
+                    <li>Stocking Stuffers</li>
+                    <li>Gifts For The Home</li>
+                    <li>Skin & Hair Devices</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div id="container" style="height: 3000px;">
+           
+         <div id="ovarlay">afgafdsg</div>
+        </div>
+        
+    </div>
+</body>
+
+</html>
+
+<script>
+
+function showBrands(){
+    document.getElementById("brands").style.display = "block"
+    document.getElementById("ovarlay").style.display = "block"
+}
+function hideBrand(){
+    document.getElementById("brands").style.display = "none"
+    document.getElementById("ovarlay").style.display = "none"
+}
+
+</script>
